@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F0F0">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/eat_text"
+        android:id="@+id/eat"
+        android:layout_gravity="center_horizontal" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:paddingTop="25dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/eatd1"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/sald_text"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/eatt1"
+                android:visibility="gone"
+                android:layout_below="@+id/eatd1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Salsateria is great place to stop by for delicious Mexican food and affordable prices"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/eatt1"
+                android:id="@+id/go51"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/eatd2"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/gccd_text"
+                android:layout_below="@+id/go51"
+                android:layout_alignLeft="@+id/eatd1"
+                android:layout_alignStart="@+id/eatd1" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/eatt2"
+                android:visibility="gone"
+                android:layout_below="@+id/eatd2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="The Guelph Caribbean Cusine has a wide variety of food and small snacks; rotis, jerk chicken, rice and beans, curry goat chicken, ox tail, shrimp, doubles, pakora, potato pies, beef patties, veggies, squash, spinach, mango, etc.  They also provide drinks from the Caribbean.  All food is freshly made."/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/eatt2"
+                android:id="@+id/go52"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/eatd3"
+                android:text="@string/ecd_text"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:layout_below="@+id/go52"
+                android:layout_alignLeft="@+id/eatd2"
+                android:layout_alignStart="@+id/eatd2" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/eatt3"
+                android:visibility="gone"
+                android:layout_below="@+id/eatd3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Einstein's Cafe is located in a century old building, just steps away from downtown Guelph.  They feature Mexican, Italian and Canadian cuisine all of which is made fresh on premises. Reservation is needed"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/eatt3"
+                android:id="@+id/go53"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/eatd4"
+                android:text="@string/zend_text"
+                android:layout_below="@+id/go53"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:layout_alignLeft="@+id/eatd3"
+                android:layout_alignStart="@+id/eatd3" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/eatt4"
+                android:visibility="gone"
+                android:layout_below="@+id/eatd4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="The Zen Gardens is a great place to go for flavorful vegetarian and vegan food as well as amazing service"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/eatt4"
+                android:id="@+id/go54"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/eatd5"
+                android:text="@string/tcsd_text"
+                android:layout_below="@+id/go54"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:layout_alignLeft="@+id/eatd4"
+                android:layout_alignStart="@+id/eatd4" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/eatt5"
+                android:visibility="gone"
+                android:layout_below="@+id/eatd5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="The Cornerstone is a fantastic neighbourhood vegan and vegetarian restaurant as well as a bar, coffee shop, and live music venue."/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/eatt5"
+                android:id="@+id/go55"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/eatd6"
+                android:text="@string/ppd_text"
+                android:layout_below="@+id/eatt5"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:layout_alignLeft="@+id/eatd5"
+                android:layout_alignStart="@+id/eatd5" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/eatt6"
+                android:visibility="gone"
+                android:layout_below="@+id/eatd6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Pierre's poutine is a fantastic place to try authentic Canadian poutine. Vegetarian options are avaliable"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/eatt6"
+                android:id="@+id/go56"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

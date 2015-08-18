@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/drink_text"
+        android:id="@+id/drink"
+        android:layout_gravity="center_horizontal" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:paddingTop="25dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/drinkd1"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/wollyd_text"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/drinkt1"
+                android:visibility="gone"
+                android:layout_below="@+id/drinkd1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Stop by this neighbourhood pub for excellent drinks and great food"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/drinkt1"
+                android:id="@+id/go41"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/drinkd2"
+                android:text="@string/Man_text"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:layout_below="@+id/go41"
+                android:layout_alignLeft="@+id/drinkd1"
+                android:layout_alignStart="@+id/drinkd1" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/drinkt2"
+                android:visibility="gone"
+                android:layout_below="@+id/drinkd2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Warm, colorful bistro for Italian dishes and a variety of pizzas along with live music on most nights"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/drinkt2"
+                android:id="@+id/go42"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/drinkd3"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/bord_text"
+                android:layout_below="@+id/go42"
+                android:layout_alignLeft="@+id/drinkd2"
+                android:layout_alignStart="@+id/drinkd2" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/drinkt3"
+                android:visibility="gone"
+                android:layout_below="@+id/drinkd3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="A great option for delicious local food, great service, and various gluten free options"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/drinkt3"
+                android:id="@+id/go43"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/drinkd4"
+                android:text="@string/albd_text"
+                android:layout_below="@+id/go43"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:layout_alignLeft="@+id/drinkd3"
+                android:layout_alignStart="@+id/drinkd3" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/drinkt4"
+                android:visibility="gone"
+                android:layout_below="@+id/drinkd4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="The albion hotel is a cozy, retro-themed Canadian eatery housed in a 19th-century hotel, with live music and art events."/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/drinkt4"
+                android:id="@+id/go44"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/drinkd5"
+                android:text="@string/bssd_text"
+                android:layout_below="@+id/go44"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:layout_alignLeft="@+id/drinkd4"
+                android:layout_alignStart="@+id/drinkd4" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/drinkt5"
+                android:visibility="gone"
+                android:layout_below="@+id/drinkd5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="The baker street station is a unique pub experience in Guelph and they are proud to offer its patrons the finest food and drink in a thoroughly modern yet surprisingly traditional atmosphere"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/drinkt5"
+                android:id="@+id/go45"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/drinkd6"
+                android:text="@string/armd_text"
+                android:layout_below="@+id/go45"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:layout_alignLeft="@+id/drinkd5"
+                android:layout_alignStart="@+id/drinkd5" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/drinkt6"
+                android:visibility="gone"
+                android:layout_below="@+id/drinkd6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="The Shakespheare's Arms is Guelph's authentic neighbourhood pub with a lot of Spirit! It's a most excellent place to meet, celebrate and enjoy great food!"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/drinkt6"
+                android:id="@+id/go46"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

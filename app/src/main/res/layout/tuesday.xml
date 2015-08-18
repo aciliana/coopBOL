@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:gravity="center_vertical|center_horizontal">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="25dp"
+        android:background="@color/green">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/rightbtn2"
+            android:background="@drawable/left" />
+
+        <TextView
+            android:text="@string/Tue_text"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:id="@+id/ttdHeader"
+            android:singleLine="false"
+            android:layout_gravity="center"
+            android:gravity="bottom|center_horizontal" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/leftbtn2"
+            android:background="@drawable/right" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="7:30AM - 8:30AM\n\nBreakfast"
+                android:id="@+id/bt2"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/btn"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="8:30AM - 9:00AM\n\nOpening Welcome"
+                android:id="@+id/t3"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/microphone"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="9:00AM - 10:30AM \n\nBiodiversity and Ecosystems\nPaul Hebert, Yves Basset, Tetsukazu Yahara"
+                android:id="@+id/t4"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/microphone"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="10:30AM - 11:00AM\n\nCoffee Break"
+                android:id="@+id/t5"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/coffee" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="11:00AM - 12:30PM\n\nEco-evolutionary Dynamics\nRosemary Gillespie, Melania Cristescu, Thibaud Decaëns"
+                android:id="@+id/t6"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/microphone"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="12:30PM - 2:00PM\n\nLunch"
+                android:id="@+id/t7"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/btn"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="2:00PM - 3:30PM\n\nAgricultural Pests and Invasive Alien Species 1"
+                android:id="@+id/t8"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/sponsor"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="2:00PM - 3:30PM\n\nBarcoding Medicinal Plants 1"
+                android:id="@+id/t9"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/parallel"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="2:00PM - 3:30PM\n\nDiversity and Systematics of Bees"
+                android:id="@+id/t10"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/parallel"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="2:00PM - 3:30PM\n\nBiodiversity and Turnover in Hotspots"
+                android:id="@+id/t11"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/parallel"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="2:00PM - 3:30PM\n\nTrophic Ecology of Mammals"
+                android:id="@+id/t12"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/parallel"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="2:00PM - 3:30PM\n\nFish Barcode of Life 1"
+                android:id="@+id/t13"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/parallel"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="2:00PM - 3:30PM\n\nDetection of eDNA 1"
+                android:id="@+id/t14"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/parallel"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="3:30PM - 4:00PM\n\nCoffee Break"
+                android:id="@+id/t15"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/coffee"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="4:00PM - 5:30PM\n\nAgricultural Pests and Invasive Alien Species 2"
+                android:id="@+id/t16"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/sponsor"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="4:00PM - 5:30PM\n\nBarcoding Medicinal Plants 2"
+                android:id="@+id/t17"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/parallel"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="4:00PM - 5:30PM\n\nFood Webs and Communities"
+                android:id="@+id/t18"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/parallel"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="4:00PM - 5:30PM\n\nPhylogeography and Geographic Patterns of Speciation"
+                android:id="@+id/t19"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/parallel"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="4:00PM - 5:30PM\n\nMarine Biodiversity and Systematics"
+                android:id="@+id/t20"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/parallel"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="4:00PM - 5:30PM\n\nFish Barcode of Life 2"
+                android:id="@+id/t21"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/parallel"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:textAllCaps="false"
+                android:text="6:30PM - 8:30PM\n\nDinner and Post-Dinner Social"
+                android:id="@+id/t22"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="10dp"
+                android:textColor="#5A6C64"
+                android:paddingLeft="120dp"
+                android:gravity="top"
+                android:background="@drawable/btn"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

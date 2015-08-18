@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/town_text"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:paddingTop="25dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/townd1"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:layout_marginLeft="5dp"
+                android:text="@string/famad_text" />
+
+            <TextView
+                android:id="@+id/townt1"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/townd1"
+                android:layout_marginLeft="7dp"
+                android:text="The Guelph Farmers Market has been a focal point of the downtown for over 180 years and remains a place where farm fresh fruit and vegetables can still be purchased. It continues to be a community place where families come to shop for quality meats, cheese, produce, baked goods, preserves, and delicious foods prepared by the vendors."
+                android:visibility="gone" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/townt1"
+                android:id="@+id/go61"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+
+            <Button
+                android:id="@+id/townd2"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/townd1"
+                android:layout_alignStart="@+id/townd1"
+                android:layout_below="@+id/go61"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/stromd_text" />
+
+            <TextView
+                android:id="@+id/townt2"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/townd2"
+                android:layout_marginLeft="7dp"
+                android:text="Strom's is a wonderful place to cheak out for a fun afternoon and a delicious slice of pie"
+                android:visibility="gone" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/townt2"
+                android:id="@+id/go62"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+
+            <Button
+                android:id="@+id/townd3"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/townd2"
+                android:layout_alignStart="@+id/townd2"
+                android:layout_below="@+id/go62"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/aamd_text" />
+
+            <TextView
+                android:id="@+id/townt3"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/townd3"
+                android:layout_marginLeft="7dp"
+                android:text="Stroll Canada's oldest open-air antique market for charming wares at great prices – close by and a world away"
+                android:visibility="gone" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/townt3"
+                android:id="@+id/go63"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+
+            <Button
+                android:id="@+id/townd4"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_alignLeft="@+id/townd3"
+                android:layout_alignStart="@+id/townd3"
+                android:layout_below="@+id/go63"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/elorad_text" />
+
+            <TextView
+                android:id="@+id/townt4"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/townd4"
+                android:layout_marginLeft="7dp"
+                android:text="Perched on the edge of a spectacular gorge and nestled along the banks of the Grand and Irvine River lies the enchanting village of Elora, Ontario. In Elora you will find art shops, boutique clothing stores, fine restaurants, and walking trails along the spectacular Elora Gorge. "
+                android:visibility="gone" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/townt4"
+                android:id="@+id/go64"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+
+            <Button
+                android:id="@+id/townd5"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:layout_alignLeft="@+id/townd4"
+                android:layout_alignStart="@+id/townd4"
+                android:layout_below="@+id/go64"
+                android:text="@string/stjd_text" />
+
+            <TextView
+                android:id="@+id/townt5"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/townd5"
+                android:layout_marginLeft="7dp"
+                android:text="The village of  St. Jacob’s is famous for the St. Jacob’s Farmers’ Market, Canada’s largest year-round farmers’ market. It is open Thursdays and Saturdays from 7 am to 3:30 pm. In addition to fresh foods reflecting the agricultural nature of southern Ontario, this market offers diverse hand-made crafts, clothing, and furniture."
+                android:visibility="gone" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/townt5"
+                android:id="@+id/go65"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

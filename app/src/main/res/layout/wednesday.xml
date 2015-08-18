@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@color/green"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="25dp">
+
+        <Button
+            android:id="@+id/rightbtn3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/left" />
+
+        <TextView
+            android:id="@+id/ttdHeader"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|bottom"
+            android:paddingLeft="20dp"
+            android:singleLine="false"
+            android:text="@string/Wed_text"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/leftbtn3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/right" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/v2"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/btn"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="7:30AM - 9:00AM\n\nBreakfast"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64" />
+
+            <Button
+                android:id="@+id/v3"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/microphone"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="9:00AM - 10:30AM\n\nEcological Interactions\nCharles Godfray, Naomi Pierce, Jana Vamosi"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64" />
+
+            <Button
+                android:id="@+id/v4"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="10:30AM - 11:00AM\n\nCoffee Break"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64"
+                android:background="@drawable/coffee" />
+
+            <Button
+                android:id="@+id/v5"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="11:00AM - 12:30PM\nEcological and Environmental Genomics\nMark Blaxter, Michael Hofreiter, Mehrdad Hajibabaei"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64"
+                android:background="@drawable/microphone" />
+
+            <Button
+                android:id="@+id/v6"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="12:30PM - 2:00PM\n\nLunch"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64"
+                android:background="@drawable/btn" />
+
+            <Button
+                android:id="@+id/v7"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="2:00PM - 3:30PM\n\nParasites and Vectors"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64"
+                android:background="@drawable/parallel" />
+
+            <Button
+                android:id="@+id/v8"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="2:00PM - 3:30PM\n\nFungal Biodiversity"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64"
+                android:background="@drawable/parallel" />
+
+            <Button
+                android:id="@+id/v9"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="2:00PM - 3:30PM\n\nPollen Barcoding and Pollination Biology"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64"
+                android:background="@drawable/parallel"/>
+
+            <Button
+                android:id="@+id/v10"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="2:00PM - 3:30PM\n\nCommunity Assembly"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64"
+                android:background="@drawable/parallel"/>
+
+            <Button
+                android:id="@+id/v11"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="2:00PM - 3:30PM\n\nConservation and Biodiversity Forensics"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64"
+                android:background="@drawable/parallel" />
+            <Button
+                android:id="@+id/v12"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="2:00PM - 3:30PM\n\nSpeciation, Biogeography, and Ecology of Marine Life"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64"
+                android:background="@drawable/parallel" />
+            <Button
+                android:id="@+id/v13"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="2:00PM - 3:30PM\n\nDetection of eDNA 2"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64"
+                android:background="@drawable/parallel" />
+            <Button
+                android:id="@+id/v14"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="3:30PM - 5:30PM\n\nPoster Session"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64"
+                android:background="@drawable/poster" />
+            <Button
+                android:id="@+id/v15"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="top"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:text="6:30PM - 8:30PM\n\nSpecial Plenary Session: State of Biodiversity"
+                android:textAllCaps="false"
+                android:textColor="#5A6C64"
+                android:background="@drawable/microphone" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

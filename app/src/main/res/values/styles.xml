@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle"   tools:ignore="NewApi">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="MyActionBar"  parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    <item name="android:background" tools:ignore="NewApi">@color/green</item>
+    <item name="background">@color/green</item>
+    </style>
+</resources>

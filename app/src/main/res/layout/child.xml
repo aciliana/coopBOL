@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/child_text"
+        android:id="@+id/child"
+        android:layout_gravity="center_horizontal"
+        android:background="#F0F0F0"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:paddingTop="25dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/childd1"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/zood_Text"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/childt1"
+                android:visibility="gone"
+                android:layout_below="@+id/childd1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="The Toronto Zoo is Canada's premier zoo known for its interactive education and conservation activities. As a unique wildlife experience, we inspire people to love, respect and protect wildlife and wild spaces"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/childt1"
+                android:id="@+id/go31"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/childd2"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/liond_text"
+                android:layout_below="@+id/go31"
+                android:layout_alignLeft="@+id/childd1"
+                android:layout_alignStart="@+id/childd1" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/childt2"
+                android:visibility="gone"
+                android:layout_below="@+id/childd2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/boat_text"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/childt2"
+                android:id="@+id/go32"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/childd3"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/aqud_text"
+                android:layout_below="@+id/go32"
+                android:layout_alignLeft="@+id/childd2"
+                android:layout_alignStart="@+id/childd2" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/childt3"
+                android:visibility="gone"
+                android:layout_below="@+id/childd3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="One of Toronto’s most exciting attractions! Containing over 5.7 million litres of water, the 12,500 square metre (135,000 square foot) interactive attraction immerses guests in a thrilling underwater adventure that showcases more than 16,000 marine animals."/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/childt3"
+                android:id="@+id/go33"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/childd4"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="Donkey Sanctuary of Canada"
+                android:layout_below="@+id/go33"
+                android:layout_alignLeft="@+id/childd3"
+                android:layout_alignStart="@+id/childd3" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/childt4"
+                android:visibility="gone"
+                android:layout_below="@+id/childd4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" Just a 10 minute drive from the University of Guelph you can also find the Donkey Sanctuary of Canada, where visitors are welcomed on Wednesdays and Sundays."/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/childt4"
+                android:id="@+id/go34"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/childd5"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/sqrd_text"
+                android:layout_below="@+id/go34"
+                android:layout_alignLeft="@+id/childd4"
+                android:layout_alignStart="@+id/childd4" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/childt5"
+                android:visibility="gone"
+                android:layout_below="@+id/childd5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="On hot days, families can enjoy the many splash parks and wading pools of Guelph, including one located at Market Square in downtown Guelph."/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/childt5"
+                android:id="@+id/go35"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/childd6"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/park_text"
+                android:layout_below="@+id/go35"
+                android:layout_alignLeft="@+id/childd5"
+                android:layout_alignStart="@+id/childd5" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/childt6"
+                android:visibility="gone"
+                android:layout_below="@+id/childd6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Riverside Park in the northern part of the city features a playground, park train, carousel, paddleboat rentals, an ice cream shop, and river-side trails."/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/childt6"
+                android:id="@+id/go36"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/childd7"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/mazed_text"
+                android:layout_below="@+id/go36"
+                android:layout_alignLeft="@+id/childd6"
+                android:layout_alignStart="@+id/childd6" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/childt7"
+                android:visibility="gone"
+                android:layout_below="@+id/childd7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Funmazing is Guelph's newest and most exciting children indoor playcentre. Their equipment promotes physical, social and emotional development for children 0 - 6"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/childt7"
+                android:id="@+id/go37"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/childd8"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/cartd_text"
+                android:layout_below="@+id/go37"
+                android:layout_alignLeft="@+id/childd7"
+                android:layout_alignStart="@+id/childd7" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/childt8"
+                android:visibility="gone"
+                android:layout_below="@+id/childd8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="The Children’s Art Factory is a Drop-in Art Studio specifically for toddlers, pre-schoolers and kindergarteners. As a studio they focus on the process of Art not the product. They explore many different types of Art and change themes weekly to keep things fresh and interesting."/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/childt8"
+                android:id="@+id/go38"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/childd9"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/wonderd_text"
+                android:layout_below="@+id/go38"
+                android:layout_alignLeft="@+id/childd8"
+                android:layout_alignStart="@+id/childd8" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/childt9"
+                android:visibility="gone"
+                android:layout_below="@+id/childd9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Spend your time at Canada's premier amusement park! There will be thrills, splashes and so much more at Canada's Wonderland. "/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/childt9"
+                android:id="@+id/go39"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/childd10"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/mud_text"
+                android:layout_below="@+id/go39"
+                android:layout_alignLeft="@+id/childd9"
+                android:layout_alignStart="@+id/childd9" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/childt10"
+                android:visibility="gone"
+                android:layout_below="@+id/childd10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Another excellent nearby attraction for families is THEMUSEUM. Featuring interactive activities and exhibits for children, this museum is located about a 25-minute drive from Guelph, in downtown Waterloo."/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/childt10"
+                android:id="@+id/go30"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

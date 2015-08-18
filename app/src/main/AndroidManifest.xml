@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acilia.barcodeoflife" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.CONTACTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MondayActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.MONDAYACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TuesdayActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.TUESDAYACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WednesdayActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.WEDNESDAYACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ThursdayActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.THURSDAYACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FridayActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.FRIDAYACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TtdActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.TTDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ArtActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.ARTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BioActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.BIOACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ChildActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.CHILDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DrinkActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.DRINKACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".EatActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.EATACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".TownActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.TOWNACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.MAPSACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SponsorActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.SPONSORACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Inst1Activity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.INST1ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Inst2Activity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.INST2ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Inst3Activity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acilia.barcodeoflife.INST3ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+    </application>
+
+</manifest>

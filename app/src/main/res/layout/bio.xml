@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/bio_text"
+        android:id="@+id/bioe"
+        android:gravity="center" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:paddingTop="25dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/biod1"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/arbd_text"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/biot1"
+                android:visibility="gone"
+                android:layout_below="@+id/biod1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/arb_text"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/biot1"
+                android:id="@+id/go21"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/biod2"
+                android:background="@color/white"
+                android:layout_marginBottom="2dp"
+                android:text="@string/boatd_text"
+                android:layout_below="@+id/go21"
+                android:layout_alignLeft="@+id/biod1"
+                android:layout_alignStart="@+id/biod1" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/biot2"
+                android:visibility="gone"
+                android:layout_below="@+id/biod2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/boat_text"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/biot2"
+                android:id="@+id/go22"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/biod3"
+                android:background="@color/white"
+                android:layout_marginBottom="2dp"
+                android:text="@string/haltond_text"
+                android:layout_below="@+id/go22"
+                android:layout_alignLeft="@+id/biod2"
+                android:layout_alignStart="@+id/biod2" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/biot3"
+                android:visibility="gone"
+                android:layout_below="@+id/biod3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/halton_text"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/biot3"
+                android:id="@+id/go23"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/biod4"
+                android:background="@color/white"
+                android:layout_marginBottom="2dp"
+                android:text="@string/cbdd_text"
+                android:layout_below="@+id/go23"
+                android:layout_alignLeft="@+id/biod3"
+                android:layout_alignStart="@+id/biod3" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/biot4"
+                android:visibility="gone"
+                android:layout_below="@+id/biod4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/cbd_text"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/biot4"
+                android:id="@+id/go24"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/biod5"
+                android:layout_marginBottom="2dp"
+                android:background="@color/white"
+                android:text="@string/Gardend_text"
+                android:layout_below="@+id/go24"
+                android:layout_alignLeft="@+id/biod4"
+                android:layout_alignStart="@+id/biod4" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/biot5"
+                android:visibility="gone"
+                android:layout_below="@+id/biod5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/garden_text"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/biot5"
+                android:id="@+id/go25"
+                android:visibility="gone"
+                android:background="@null"
+
+                android:text="Get Directions"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/biod6"
+                android:background="@color/white"
+                android:text="@string/fallsd_text"
+                android:layout_below="@+id/go25"
+                android:layout_marginBottom="2dp"
+                android:layout_alignLeft="@+id/biod5"
+                android:layout_alignStart="@+id/biod5" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/biot6"
+                android:visibility="gone"
+                android:layout_below="@+id/biod6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/fallst_text"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/biot6"
+                android:id="@+id/go26"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/biod7"
+                android:background="@color/white"
+                android:text="@string/bpnpd_text"
+                android:layout_marginBottom="2dp"
+                android:layout_below="@+id/go26"
+                android:layout_alignLeft="@+id/biod6"
+                android:layout_alignStart="@+id/biod6" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/biot7"
+                android:visibility="gone"
+                android:layout_below="@+id/biod7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="The Bruce Peninsula National Park is situated on the northern tip of the Bruce Peninsula, between Georgian Bay andLake Huron. The beautiful park, with a size of 155 square kilometers at the tip of the Niagara Escarpment, consists out of limestone cliffs, caves and underground streams, and ancient forests with some of the oldest trees in Canada. The Bruce Peninsula National Park is comprised of an incredible array of habitats from rare alvars to dense forests and clean lakes. Together these form a greater ecosystem - the largest remaining chunk of natural habitat in southern Ontario."/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/biot7"
+                android:id="@+id/go27"
+                android:visibility="gone"
+                android:background="@null"
+                android:text="Get Directions"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
